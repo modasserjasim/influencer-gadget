@@ -92,6 +92,7 @@ main{
     border: 2px solid #ff6927;
     padding: 10px 24px;
     border-radius: 41px;
+    transition: 1s;
 }
 .fa-btn{
     font-size: 14px;
@@ -99,7 +100,7 @@ main{
 }
 .prebook-now:hover{
     background-color: rgba(255, 255, 255, 0);
-    transition-delay: 0.2s;
+    transition: 1s;
     color: #ff6927;
     box-shadow: 10px 10px 5px #aaaaaa;
 }
@@ -235,3 +236,125 @@ Client Logo section start
  .fa-cart-plus{
      font-size: 12px;
  }
+
+ /*===========================
+  Bonus login form section css 
+  ===========================*/
+ .form-title {
+    font-size: 35px;
+  }
+  
+  .form {
+    border-top: 5px solid #FB8200;
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    margin-bottom: 70px;
+  }
+  
+  .top-text{
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    margin: 0 auto 5px 80px;
+  }
+  
+  .sub-title{
+    color: grey;
+  }
+  
+  .name, .email {
+    background-color: #ebebeb;
+    color: white;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .fields {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+  }
+  
+  .submit {
+    width: 200px;
+    color: white;
+    background-color: #FB8200;
+    font-size: 20px;
+    border-radius: 50px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    width: 300px;
+  }
+
+  /*======================
+   Footer CSS START 
+   ======================*/
+   footer{
+    background-color: #331c03;
+    padding: 50px 0;
+
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .influ-products{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+   }
+   .copyright{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 0;
+   }
+   .social{
+    display: flex;
+    justify-content: space-around;
+
+   }
+  
+  .social ul li{
+    list-style: none;
+    display: inline;
+    color: #fff;
+    padding-right: 10px;
+  }
+  .social ul li:hover{
+    color: #FB8200;
+  }
+  .social-icons{
+      background-color: #FB8200;
+      padding: 10px;
+      border-radius: 100px;
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
+      transition: 1s;
+  }
+  .social-icons:hover{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 100px;
+    transform: rotate3d(180deg);
+      transition: 1s;
+  }
