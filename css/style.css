@@ -204,7 +204,7 @@ Client Logo section start
     font-size: 14px;
     padding: 2px 15px;
     border: 1px solid #7a7a7a;
-    width: 99px;
+    width: 131px;
     color: #6c6c6c;
     border-radius: 50px;
     transition: 1s;
@@ -342,15 +342,12 @@ Client Logo section start
   .social ul li:hover{
     color: #FB8200;
   }
-  .social-icons{
-      background-color: #FB8200;
-      padding: 10px;
-      border-radius: 100px;
-      font-size: 20px;
-      width: 20px;
-      height: 20px;
-      transition: 1s;
-  }
+  .social-icons {
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 30px;
+    transition: 1s;
+}
   .social-icons:hover{
     background-color: #ffffff;
     padding: 10px;
