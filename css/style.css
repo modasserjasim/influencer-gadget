@@ -13,15 +13,14 @@ body{
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .container{
     width: 1200px;
+    margin: 0 auto;
 }
 /*======================
 Header css start
@@ -49,6 +48,7 @@ Header css start
 .fas{
     font-size: 20px;
 }
+
 
 /*======================
  Main area start
@@ -116,8 +116,8 @@ main{
 Client Logo section start 
 ==========================*/
 .client-logos{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     padding: 30px;
     margin: 0 40px;
     border-top: 1px solid #eeeeee;
@@ -247,12 +247,12 @@ Client Logo section start
   .form {
     border-top: 5px solid #FB8200;
     border-radius: 5px;
-    max-width: 480px;
+    max-width: 680px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
     box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
-    margin-bottom: 70px;
+    margin-bottom: 100px;
   }
   
   .top-text{
@@ -261,7 +261,7 @@ Client Logo section start
     margin: 10px auto 5px;
     width: 300px;
   }
-  .termsConditions{
+  .terms-conditions{
     margin: 0 auto 5px 80px;
   }
   

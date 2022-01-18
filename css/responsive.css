@@ -1,0 +1,65 @@
+/*====================================
+ Media query start for the responsive 
+ =====================================*/
+ @media only screen and (max-width: 576px) {
+     .container{
+         padding:20px;
+     }
+     header{
+        margin-top: 20px !important;
+    }
+     .top-header, .hero-section{
+         flex-direction: column !important;
+     }
+     .logo h2 {
+        font-size: 24px !important;
+        text-align: center;
+    }
+    .navbar ul li {
+        margin-left: 15px !important;
+        line-height: 35px !important;
+    }
+    .hero, .top-header, .logo, .navbar, .influencer-details, .sign-up, .navigation, .influencer-img{
+        width: 100% !important;
+    }
+    .influencer-details {
+        padding-right: 0px !important;
+    }
+    .hero-title {
+        font-size: 44px !important;
+    }
+    .influencer-img img {
+        margin-top: 40px;
+        width: 320px !important;
+    }
+    .client-logos{
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-row-gap: 40px;
+        padding: 20px 0 !important;
+        margin: 0px 0px !important;
+    }
+    .client-logos img{
+        width: 150px;
+    }
+    .all-products {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .company-logo{
+        width: 100% !important;
+    }
+    .form {
+        max-width: 400px !important;
+    }
+    
+}
+ @media (min-width:577px) and (max-width:970px) {
+    .container{
+        padding:30px;
+    }
+    .all-products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+ }
